@@ -25,10 +25,24 @@
 - [ ] Implement local storage for offline data and preferences
 
 ## 3. Feature: Authentication and User Management
-- [ ] Develop sign-up and login screens
-- [ ] Implement user profile creation and management
-- [ ] Create parental control features
+- [x] Create basic AuthScreen with options for login, register, and guest access
+- [x] Update router to include AuthScreen
+- [x] Modify SplashScreen to navigate to AuthScreen after initialization
+- [ ] Implement Firebase Authentication for each auth method:
+  - [ ] Email/password login
+  - [ ] New account registration
+  - [ ] Guest login
+  - [ ] Google Sign-In
+  - [ ] Twitter Sign-In
+  - [ ] Facebook Sign-In
+  - [ ] Apple Sign-In
+- [ ] Create user profile creation and management flow
+- [ ] Implement logout functionality
+- [ ] Add account linking option for guest users
 - [ ] Set up role-based access control
+- [ ] Create parental control features
+- [ ] Implement secure storage for auth tokens
+- [ ] Add "Remember Me" functionality for returning users
 
 ## 4. Feature: Home Screen and Dashboard
 - [x] Create basic home page structure
