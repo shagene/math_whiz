@@ -4,15 +4,10 @@ import 'package:go_router/go_router.dart';
 import 'features/home/presentation/screens/home_page.dart';
 import 'features/profile/presentation/screens/profile_page.dart';
 import 'features/quiz/presentation/screens/quiz_page.dart';
-import 'main.dart'; // Import this to use NavigationPage
 
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     routes: [
-      GoRoute(
-        path: '/',
-        builder: (context, state) => const NavigationPage(),
-      ),
       GoRoute(
         path: '/home',
         builder: (context, state) => const HomePage(),
